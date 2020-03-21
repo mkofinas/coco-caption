@@ -6,10 +6,10 @@ from builtins import zip  # pylint: disable=redefined-builtin
 from builtins import dict  # pylint: disable=redefined-builtin
 from builtins import object  # pylint: disable=redefined-builtin
 
-from pycocoevalcap.tokenizer.ptbtokenizer import PTBTokenizer
-from pycocoevalcap.bleu.bleu import Bleu
-from pycocoevalcap.meteor.meteor import Meteor
-from pycocoevalcap.cider.cider import Cider
+from tokenizer.ptbtokenizer import PTBTokenizer
+from bleu.bleu import Bleu
+from meteor.meteor import Meteor
+from cider.cider import Cider
 
 
 class CaptionEvaluation(object):
